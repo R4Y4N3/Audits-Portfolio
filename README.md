@@ -9,7 +9,7 @@
   Web3 Security Researcher
 </p>
 
----
+
 
 ## Find me at
 
@@ -18,7 +18,7 @@
 - **Email**: `r_boucheraine@estin.dz`
 - **Handle**: `R4Y4N3`
 
----
+
 
 ## Summary
 
@@ -30,7 +30,7 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
 
 ---
 
-<h3 align="center">Public Audit Competitions 🏆</h3>
+<h3>Public Audit Competitions 🏆</h3>
 
 <table>
   <thead>
@@ -59,7 +59,7 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
 
 ---
 
-<h3 align="center">Bug Bounty Programs 🐞</h3>
+<h3>Bug Bounty Programs 🐞</h3>
 
 <table>
   <thead>
@@ -98,7 +98,7 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
 
 ---
 
-<h3 align="center">Disclosure Policy 🔒</h3>
+<h3>Disclosure Policy 🔒</h3>
 
 I do not publish private exploit code, live vulnerability details, confidential screenshots, internal triage comments, or undisclosed proof-of-concept details.
 
