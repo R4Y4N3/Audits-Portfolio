@@ -1,24 +1,11 @@
 # R4Y4N3's Audit Portfolio 💼
 
-<p align="center">
-  <img src="https://sherlock-files.ams3.digitaloceanspaces.com/profile_images/83a46156-be75-4fd7-9cde-fb3e49667207.jpg" width="120" />
-</p>
+**Find me at:**
 
-<p align="center">
-  <b>Rayane Boucheraine — R4Y4N3</b><br/>
-  Web3 Security Researcher
-</p>
-
-
-
-## Find me at
-
-- **GitHub**: [Rayane-Boucheraine](https://github.com/Rayane-Boucheraine)
+- **Sherlock**: [R4Y4N3](https://audits.sherlock.xyz/watson/R4Y4N3)
 - **X**: [@R4Y4N3___](https://x.com/R4Y4N3___)
-- **Email**: `r_boucheraine@estin.dz`
-- **Handle**: `R4Y4N3`
-
-
+- **Telegram**: `r4y_4n3`
+- **Discord**: `r4y4n3_`
 
 ## Summary
 
@@ -38,6 +25,7 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
       <th>Date</th>
       <th>Contest / Project</th>
       <th>Platform</th>
+      <th>Category</th>
       <th>Findings</th>
     </tr>
   </thead>
@@ -46,12 +34,14 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
       <td>Nov 2025</td>
       <td>Rain Smart Contract Audit Contest</td>
       <td>HackenProof</td>
+      <td>Smart Contracts</td>
       <td>1 Critical, 1 High</td>
     </tr>
     <tr>
       <td>Nov 2025</td>
       <td>stNXM by EaseDeFi</td>
       <td>Sherlock</td>
+      <td>DeFi / Smart Contracts</td>
       <td>1 High, 1 Medium</td>
     </tr>
   </tbody>
@@ -67,6 +57,7 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
       <th>Date</th>
       <th>Program</th>
       <th>Platform</th>
+      <th>Category</th>
       <th>Findings</th>
       <th>Status</th>
     </tr>
@@ -76,6 +67,7 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
       <td>May 2026</td>
       <td>Hyperbridge Protocol</td>
       <td>HackenProof</td>
+      <td>Blockchain / DLT</td>
       <td>3 Duplicates</td>
       <td>Duplicate</td>
     </tr>
@@ -83,6 +75,7 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
       <td>Mar 2026</td>
       <td>Calyx Smart Contract</td>
       <td>HackenProof</td>
+      <td>Smart Contracts</td>
       <td>1 Duplicate</td>
       <td>Duplicate</td>
     </tr>
@@ -90,6 +83,7 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
       <td>May 2026</td>
       <td>MagpieXYZ</td>
       <td>Immunefi</td>
+      <td>Smart Contracts</td>
       <td>1 High</td>
       <td>Escalated</td>
     </tr>
@@ -102,4 +96,4 @@ This portfolio only includes meaningful outcomes such as resolved contest findin
 
 I do not publish private exploit code, live vulnerability details, confidential screenshots, internal triage comments, or undisclosed proof-of-concept details.
 
-For restricted reports, I only publish disclosure-safe information such as the platform, program name, severity, status, and high-level finding count.
+For restricted reports, I only publish disclosure-safe information such as the platform, program name, category, severity, status, and high-level finding count.
