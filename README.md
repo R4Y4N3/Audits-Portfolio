@@ -89,6 +89,15 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
       <td>High</td>
       <td>Duplicate</td>
     </tr>
+    <tr>
+      <td>Mar 2026</td>
+      <td>SNS</td>
+      <td>Immunefi</td>
+      <td>Name Service, Rust/Solana</td>
+      <td>1 account-closure revival attack report</td>
+      <td>Low</td>
+      <td>Paid</td>
+    </tr>
   </tbody>
 </table>
 
