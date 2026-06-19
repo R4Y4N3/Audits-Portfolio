@@ -62,6 +62,15 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
     </tr>
   </thead>
   <tbody>
+     <tr>
+      <td>May 2026</td>
+      <td>BitGo</td>
+      <td>Cantina</td>
+      <td>Custody / Wallet Infrastructure, Solidity</td>
+      <td>Uninitialized forwarder-proxy implementation singleton enabling passive fund drain to an attacker-controlled address</td>
+      <td>Critical</td>
+      <td>Duplicate</td>
+    </tr>
     <tr>
       <td>May 2026</td>
       <td>Hyperbridge Protocol</td>
