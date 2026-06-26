@@ -11,7 +11,7 @@
 
 I'm a blockchain security researcher working across **EVM smart contracts**, **Rust/Solana security**, **DeFi protocol security**, and **DLT/Cosmos-based systems**, with a growing interest in **Zero-Knowledge (ZK) security**.
 
-My work spans audit competitions, bug bounty programs, protocol reviews, and CTF-based security research, combining manual code review with practical exploit analysis, Cosmos SDK/DLT architecture review, and clear technical reporting.
+My work spans audit competitions, bug bounty programs, protocol reviews, and CTF-based security research, combining manual code review with practical exploit analysis and clear technical reporting.
 
 ---
 
@@ -66,8 +66,8 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
       <td>May 2026</td>
       <td>BitGo</td>
       <td>Cantina</td>
-      <td>Custody / Wallet Infrastructure, Solidity</td>
-      <td>Uninitialized forwarder-proxy implementation singleton enabling passive fund drain to an attacker-controlled address</td>
+      <td>Wallet Infrastructure, Solidity</td>
+      <td>Uninitialized Forwarder Proxy Implementation Takeover</td>
       <td>Critical</td>
       <td>Duplicate</td>
     </tr>
@@ -76,7 +76,7 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
       <td>Hyperbridge Protocol</td>
       <td>HackenProof</td>
       <td>Bridge, Rust/Solidity</td>
-      <td>3 duplicate reports around proof verification and amount accounting</td>
+      <td>Proof Verification Amount Accounting Mismatch</td>
       <td>High</td>
       <td>Duplicate</td>
     </tr>
@@ -85,7 +85,7 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
       <td>Calyx Smart Contract</td>
       <td>HackenProof</td>
       <td>Launchpad, Rust</td>
-      <td>1 duplicate report around withdrawal callback state locking</td>
+      <td>Withdrawal Callback State Locking</td>
       <td>High</td>
       <td>Duplicate</td>
     </tr>
@@ -94,7 +94,7 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
       <td>MagpieXYZ</td>
       <td>Immunefi</td>
       <td>Yield, Solidity</td>
-      <td>1 duplicate report around reward-freezing withdrawal behavior</td>
+      <td>Withdrawal-Induced Reward Freezing</td>
       <td>High</td>
       <td>Duplicate</td>
     </tr>
@@ -103,7 +103,7 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
       <td>SNS</td>
       <td>Immunefi</td>
       <td>Name Service, Rust/Solana</td>
-      <td>1 account-closure revival attack report</td>
+      <td>Account Closure Revival Attack</td>
       <td>Low</td>
       <td>Paid</td>
     </tr>
