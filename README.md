@@ -9,9 +9,9 @@
 
 ## About Me
 
-I'm a blockchain security researcher working across **EVM smart contracts**, **Rust/Solana security**, and **DeFi protocol security**, with a growing interest in **Zero-Knowledge (ZK) security**.
+I'm a blockchain security researcher working across **EVM smart contracts**, **Rust/Solana security**, **DeFi protocol security**, and **DLT/Cosmos-based systems**, with a growing interest in **Zero-Knowledge (ZK) security**.
 
-My work spans audit competitions, bug bounty programs, protocol reviews, and CTF-based security research, combining manual code review with practical exploit analysis and clear technical reporting.
+My work spans audit competitions, bug bounty programs, protocol reviews, and CTF-based security research, combining manual code review with practical exploit analysis, Cosmos SDK/DLT architecture review, and clear technical reporting.
 
 ---
 
