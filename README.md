@@ -23,24 +23,28 @@ This repository brings together my work from public audit contests, private secu
       <th>Date</th>
       <th>Contest / Project</th>
       <th>Platform</th>
-      <th>Tags</th>
       <th>Findings</th>
+      <th>Report</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Nov 2025</td>
-      <td>Rain Smart Contract Audit Contest</td>
+      <td>Rain Smart Contract Audit</td>
       <td>HackenProof</td>
-      <td>Prediction Market, Solidity</td>
       <td>1 Critical, 1 High</td>
+      <td align="center">
+        <a href="./reports/Rain/README.md">📄</a>
+      </td>
     </tr>
     <tr>
       <td>Nov 2025</td>
       <td>stNXM by EaseDeFi</td>
       <td>Sherlock</td>
-      <td>Liquid Staking, Solidity</td>
-      <td>1 High, 1 Medium</td>
+      <td>1 Critical, 1 High</td>
+      <td align="center">
+        <a href="./reports/stNXM/README.md">📄</a>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -55,7 +59,6 @@ This repository brings together my work from public audit contests, private secu
       <th>Date</th>
       <th>Program</th>
       <th>Platform</th>
-      <th>Tags</th>
       <th>What I Found</th>
       <th>Severity</th>
       <th>Result</th>
@@ -66,7 +69,6 @@ This repository brings together my work from public audit contests, private secu
       <td>May 2026</td>
       <td>BitGo</td>
       <td>Cantina</td>
-      <td>Wallet Infrastructure, Solidity</td>
       <td>Uninitialized Forwarder Proxy Implementation Takeover</td>
       <td>Critical</td>
       <td>Duplicate</td>
@@ -75,7 +77,6 @@ This repository brings together my work from public audit contests, private secu
       <td>May 2026</td>
       <td>Hyperbridge Protocol</td>
       <td>HackenProof</td>
-      <td>Bridge, Rust/Solidity</td>
       <td>Proof Verification Amount Accounting Mismatch</td>
       <td>High</td>
       <td>Duplicate</td>
@@ -84,7 +85,6 @@ This repository brings together my work from public audit contests, private secu
       <td>Mar 2026</td>
       <td>Calyx Smart Contract</td>
       <td>HackenProof</td>
-      <td>Launchpad, Rust</td>
       <td>Withdrawal Callback State Locking</td>
       <td>High</td>
       <td>Duplicate</td>
@@ -93,7 +93,6 @@ This repository brings together my work from public audit contests, private secu
       <td>May 2026</td>
       <td>MagpieXYZ</td>
       <td>Immunefi</td>
-      <td>Yield, Solidity</td>
       <td>Withdrawal-Induced Reward Freezing</td>
       <td>High</td>
       <td>Duplicate</td>
@@ -102,7 +101,6 @@ This repository brings together my work from public audit contests, private secu
       <td>Mar 2026</td>
       <td>SNS</td>
       <td>Immunefi</td>
-      <td>Name Service, Rust/Solana</td>
       <td>Account Closure Revival Attack</td>
       <td>Low</td>
       <td>Paid</td>
