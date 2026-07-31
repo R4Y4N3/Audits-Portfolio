@@ -1,17 +1,17 @@
-# R4Y4N3 — Security Research Portfolio ⚔️
+# R4Y4N3’s Web3 Security Journey
 
 **Find me at:**
 
-- **Sherlock**: [R4Y4N3](https://audits.sherlock.xyz/watson/R4Y4N3)
-- **X**: [@R4Y4N3___](https://x.com/R4Y4N3___)
-- **Telegram**: `r4y_4n3`
-- **Discord**: `r4y4n3_`
+* **Sherlock**: [R4Y4N3](https://audits.sherlock.xyz/watson/R4Y4N3)
+* **X**: [@R4Y4N3___](https://x.com/R4Y4N3___)
+* **Telegram**: `r4y_4n3`
+* **Discord**: `r4y4n3_`
 
 ## About Me
 
-I'm a blockchain security researcher working across **EVM smart contracts**, **Rust/Solana security**, **DeFi protocol security**, and **DLT/Cosmos-based systems**, with a growing interest in **Zero-Knowledge (ZK) security**.
+I'm a blockchain security researcher focused on **EVM smart contracts** and **Rust/Solana programs**, with a growing interest in **Zero-Knowledge security**.
 
-My work spans audit competitions, bug bounty programs, protocol reviews, and CTF-based security research, combining manual code review with practical exploit analysis and clear technical reporting.
+This repository brings together my work from public audit contests, private security engagements, and bug bounty programs. It includes selected findings, reports, and results from my work in Web3 security.
 
 ---
 
@@ -62,7 +62,7 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
     </tr>
   </thead>
   <tbody>
-     <tr>
+    <tr>
       <td>May 2026</td>
       <td>BitGo</td>
       <td>Cantina</td>
@@ -109,11 +109,3 @@ My work spans audit competitions, bug bounty programs, protocol reviews, and CTF
     </tr>
   </tbody>
 </table>
-
----
-
-<h3>Disclosure Policy 🔒</h3>
-
-I do not publish private exploit code, live vulnerability details, confidential screenshots, internal triage comments, or undisclosed proof-of-concept details.
-
-For restricted reports, I only publish disclosure-safe information such as platform, program name, tags, severity, result, and a high-level finding summary.
