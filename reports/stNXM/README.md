@@ -4,8 +4,6 @@ The stNXM vault includes the value of its Uniswap V3 liquidity positions when ca
 
 The position balances are calculated in `dexBalances()` using the current Uniswap V3 spot price returned by `slot0()`:
 
-https://github.com/EaseDeFi/stNXM-Contracts/blob/main/contracts/core/stNXM.sol#L430
-
 ```solidity
 function dexBalances()
     public
@@ -24,8 +22,6 @@ function dexBalances()
 ```
 
 The returned `sharesAmount` is treated as the amount of stNXM held by the liquidity positions and is removed from the reported token supply:
-
-https://github.com/EaseDeFi/stNXM-Contracts/blob/main/contracts/core/stNXM.sol#L409
 
 ```solidity
 function totalSupply()
@@ -97,8 +93,6 @@ The vault tracks the tranches associated with each staking NFT through the `toke
 
 When NXM is deposited through `_stakeNxm()`, the supplied tranche ID is always appended to the array:
 
-https://github.com/EaseDeFi/stNXM-Contracts/blob/main/contracts/core/stNXM.sol#L531
-
 ```solidity
 function _stakeNxm(
     uint256 _amount,
@@ -134,8 +128,6 @@ to:
 ```
 
 The `stakedNxm()` function later iterates over this array and retrieves the complete deposit balance for every entry:
-
-https://github.com/EaseDeFi/stNXM-Contracts/blob/main/contracts/core/stNXM.sol#L330
 
 ```solidity
 function stakedNxm() public view returns (uint256 assets) {
