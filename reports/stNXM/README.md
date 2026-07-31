@@ -1,7 +1,5 @@
 # C-1: Uniswap V3 spot-price manipulation can inflate the share price and drain the vault
 
-**Issue #411 — Submitted on November 20, 2025**
-
 The stNXM vault includes the value of its Uniswap V3 liquidity positions when calculating its assets and circulating share supply.
 
 The position balances are calculated in `dexBalances()` using the current Uniswap V3 spot price returned by `slot0()`:
@@ -243,8 +241,6 @@ Another option is to use an accounting model that does not allow temporary chang
 ---
 
 # H-1: Duplicate tranche tracking double-counts staked NXM
-
-**Issue #425 — Submitted on November 20, 2025**
 
 The vault tracks the tranches associated with each staking NFT through the `tokenIdToTranches` mapping.
 
