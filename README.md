@@ -15,7 +15,7 @@ This repository brings together my work from public audit contests, private secu
 
 ---
 
-<h3>Public Audit Competitions 🏆</h3>
+<h3>Public Audit Competitions</h3>
 
 <table>
   <thead>
@@ -51,7 +51,7 @@ This repository brings together my work from public audit contests, private secu
 
 ---
 
-<h3>Bug Bounty Programs 🐞</h3>
+<h3>Bug Bounty Programs</h3>
 
 <table>
   <thead>
