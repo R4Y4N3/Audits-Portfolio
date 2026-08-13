@@ -101,19 +101,39 @@ The attack follows this sequence:
 10. `claimsStarted` prevents the moderator from correcting the outcome.
 11. `claimCorrupted()` transfers the entire pool balance to `recoveryAddress`.
 
-[View the complete Foundry test](./poc/M-01-CorruptedGracePeriod.t.sol)
+[View the full Foundry PoC](./poc/M-01-CorruptedGracePeriod.t.sol)
 
-To run it from the original BattleChain Confidence Pools repository:
+The canonical PoC was reproduced against contest commit `58e8ba4ce3f3277866e4926f3140e597f9554a1e` with BattleChain submodule commit `fde1b2abe9e5c27175f5b6f7324bcce6afc3b059`.
 
-```bash
-forge test --match-path test/audit/ConfidencePoolPostExpiryCorruption.t.sol -vvv
-```
+The upstream BattleChain contracts compile with Solidity `0.8.34`, while the PoC and in-scope Confidence Pool contracts compile with Solidity `0.8.26`.
 
-Expected result:
+Place the PoC in the original contest repository at `test/poc/late_corruption_grace/LateCorruptionPreemptsModerator.t.sol`, then run the upstream build followed by the test.
 
-```text
-3 passed, 0 failed
-```
+Reproduction commands:
+
+    git submodule update --init --recursive
+
+    rm -rf out/battlechain-upstream cache/battlechain-upstream
+
+    forge build \
+      --root lib/battlechain-safe-harbor-contracts \
+      --out "$PWD/out/battlechain-upstream" \
+      --cache-path "$PWD/cache/battlechain-upstream" \
+      src/AgreementFactory.sol \
+      src/AttackRegistry.sol \
+      src/BattleChainSafeHarborRegistry.sol
+
+    forge test \
+      --match-path test/poc/late_corruption_grace/LateCorruptionPreemptsModerator.t.sol \
+      -vvv
+
+Recorded result:
+
+    [PASS] test_LateCorruptionCanFinalizeBeforeModeratorClassificationWindow()
+    [PASS] test_ResolvingBeforeLateCorruptionUsesExpiredBranch()
+
+    Suite result: ok. 2 passed; 0 failed; 0 skipped
+
 
 ## Tools Used
 
