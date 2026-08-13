@@ -29,6 +29,15 @@ This repository brings together my work from public audit contests, private secu
   </thead>
   <tbody>
     <tr>
+      <td>Aug 2026</td>
+      <td>BattleChain Confidence Pools</td>
+      <td>CodeHawks</td>
+      <td>1 Medium · Rank #12 · 0.19 ETH</td>
+      <td align="center">
+        <a href="./reports/BattleChain/README.md">📄</a>
+      </td>
+    </tr>
+    <tr>
       <td>Nov 2025</td>
       <td>Rain Smart Contract Audit</td>
       <td>HackenProof</td>
