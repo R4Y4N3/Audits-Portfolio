@@ -388,7 +388,7 @@ function _createCommittedAgreement(uint256 cantChangeUntil) internal returns (ad
 
 function _createAndFundPool(address agreement, uint256 poolExpiry) internal returns (ConfidencePool pool) {
 
-address[] memory scope = new address[]\(1);
+address[] memory scope = new address[](1);
 
         scope[0] = coveredAccount;
 
@@ -458,7 +458,7 @@ address agreementFactoryImpl = _deployArtifact(AGREEMENT_FACTORY_ARTIFACT);
 
 address attackRegistryImpl = _deployArtifact(ATTACK_REGISTRY_ARTIFACT);
 
-string[] memory validChains = new string[]\(1);
+string[] memory validChains = new string[](1);
 
         validChains[0] = BATTLECHAIN_CAIP2;
 
@@ -596,13 +596,13 @@ require(deployed != address(0), "artifact deploy failed");
 
 function _agreementDetails() internal view returns (AgreementDetails memory details) {
 
-        BCAccount[] memory accounts = new BCAccount[]\(1);
+        BCAccount[] memory accounts = new BCAccount[](1);
 
         accounts[0] =
 
             BCAccount({accountAddress: _addressToString(coveredAccount), childContractScope: ChildContractScope.None});
 
-        BCChain[] memory chains = new BCChain[]\(1);
+        BCChain[] memory chains = new BCChain[](1);
 
         chains[0] = BCChain({
 
@@ -610,7 +610,7 @@ function _agreementDetails() internal view returns (AgreementDetails memory deta
 
         });
 
-        Contact[] memory contacts = new Contact[]\(1);
+        Contact[] memory contacts = new Contact[](1);
 
         contacts[0] = Contact({name: "Security", contact: "security@example.com"});
 
